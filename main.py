@@ -76,6 +76,12 @@ def run_test():
                                 return item
 
     print(run_test())
+    print("\nIs it your animal?\n")
+    answer = input("Enter Yes or No: ")
+    if answer == "Yes":
+        print("\nI defeated you!")
+    else:
+        print("\nYou beat me :0( You're eggplant!")
 
 
 
