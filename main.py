@@ -75,5 +75,7 @@ def run_test():
                                 item = seconddict[answer]
                                 return item
 
+    print(run_test())
+
 
 
