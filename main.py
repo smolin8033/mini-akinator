@@ -50,4 +50,10 @@ def run_test():
         seconddict = answers[item]
         if answer in seconddict.keys():
             item = seconddict[answer]
+            if "animal" in item:
+                return item
+            else:
+                print(item)
+                answer = input("Enter Yes or No: ")
+                seconddict = answers[item]
 
