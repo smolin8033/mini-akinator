@@ -20,3 +20,20 @@ q = [
     'Do you want to kill it during the sleepless night?\n(a) Yes\n(b) No\n\n',
     'Can it fly above the lake?\n(a) Yes\n(b) No\n\n',
 ]
+
+answers = {
+    q[0]: {"Yes": q[1], "No": q[4]},
+    q[1]: {"Yes": q[2], "No": q[6]},
+    q[2]: {"Yes": q[3], "No": q[5]},
+    q[3]: {"Yes": "Your animal is a cow", "No": q[13]},
+    q[4]: {"Yes": q[10], "No": "Your animal is a mouse"},
+    q[5]: {"Yes": "Your animal is a dog", "No": "Your animal is a cat"},
+    q[6]: {"Yes": q[7], "No": q[8]},
+    q[7]: {"Yes": "Your animal is a shark", "No": "Your animal is a piranha"},
+    q[8]: {"Yes": "Your animal is a hawk", "No": q[9]},
+    q[9]: {"Yes": "Your animal is a camel", "No": "Your animal is a snow leopard"},
+    q[10]: {"Yes": q[11], "No": "Your animal is a butterfly"},
+    q[11]: {"Yes": "Your animal is a bee", "No": q[12]},
+    q[12]: {"Yes": "Your animal is a mosquito", "No": "Your animal is a fly"},
+    q[13]: {"Yes": "Your animal is a duck", "No": "Your animal is a chicken"},
+}
