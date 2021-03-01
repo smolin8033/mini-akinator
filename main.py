@@ -37,3 +37,9 @@ answers = {
     q[12]: {"Yes": "Your animal is a mosquito", "No": "Your animal is a fly"},
     q[13]: {"Yes": "Your animal is a duck", "No": "Your animal is a chicken"},
 }
+
+def run_test():
+    item = q[0]
+    print(item)
+    answer = input("Enter Yes or No: ")
+    seconddict = answers[item]
