@@ -48,4 +48,6 @@ def run_test():
         print(item)
         answer = input("Enter Yes or No: ")
         seconddict = answers[item]
+        if answer in seconddict.keys():
+            item = seconddict[answer]
 
